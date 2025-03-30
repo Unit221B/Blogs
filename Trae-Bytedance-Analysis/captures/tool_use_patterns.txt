@@ -1,0 +1,8 @@
+# Sonnet 3.7 Tool Use Patterns
+
+--- Tool Use Pattern Captured at 2025-03-30T14:17:35.898117 from https://api.trae.ai/icube/api/v1/native/config/query?machineId=01cf49a95ad927ea934d0ddb6eac0511d4c5ace138dee1a6eda9e0184a51bd8d&deviceId=7484270930408703504&userId=7484083577249612805&packageType=stable_i18n&platform=Mac&arch=arm64&scope=marscode&appVersion=1.2.4&buildVersion=1.0.10282&traeVersionCode=20250325 ---
+response_contains_tools: True
+
+--- Tool Use Pattern Captured at 2025-03-30T14:17:35.941407 from https://api.trae.ai/icube/api/v1/native/config/query?machineId=01cf49a95ad927ea934d0ddb6eac0511d4c5ace138dee1a6eda9e0184a51bd8d&deviceId=7484270930408703504&userId=7484083577249612805&packageType=stable_i18n&platform=Mac&arch=arm64&scope=marscode&appVersion=1.2.4&buildVersion=1.0.10282&traeVersionCode=20250325 ---
+response_contains_tools: True
+
