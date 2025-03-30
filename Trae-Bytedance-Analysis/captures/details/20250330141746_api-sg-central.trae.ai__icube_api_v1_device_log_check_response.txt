@@ -1,0 +1,33 @@
+Status Code: 200
+Headers:
+  content-type: application/json; charset=utf-8
+  content-length: 61
+  access-control-allow-credentials: true
+  access-control-allow-headers: *
+  access-control-allow-methods: GET, POST, OPTIONS
+  access-control-allow-origin: *
+  access-control-max-age: 86400
+  x-bytefaas-execution-duration: 13.45
+  x-bytefaas-request-id: 202503301817447197C9730F8667A3425E
+  x-gw-dst-psm: icube.native.ide
+  x-powered-by: Goofy Node
+  x-tt-logid: 202503301817447197C9730F8667A3425E
+  server-timing: inner; dur=19, cdn-cache; desc=MISS, edge; dur=0, origin; dur=233
+  x-tt-trace-host: 0117efc274a7e4ab9e608b136e066c684d96127fce3082a361592cdf867ba69fb9d229f7d8c3f1bb31a3b0e0508f0b59323b20163b1703bc3ee3365369d2a836f19381374e4331a94ace344d5ed95aff0edaba0f6c762ff275b0c7ac539ddd808b
+  x-tt-trace-id: 00-2503301817447197C9730F8667A3425E-1BA09DFD1409150C-00
+  server: TLB
+  expires: Sun, 30 Mar 2025 18:17:46 GMT
+  cache-control: max-age=0, no-cache, no-store
+  pragma: no-cache
+  date: Sun, 30 Mar 2025 18:17:46 GMT
+  x-cache: TCP_MISS from a23-216-152-205.deploy.akamaitechnologies.com (AkamaiGHost/22.0.1-eb7cb3f5cdf15410f5facbbff815d64a) (-)
+  strict-transport-security: max-age=31536000 ; includeSubDomains
+  x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+  x-origin-response-time: 233,23.216.152.205
+  x-akamai-request-id: 30fc50ac
+
+Body:
+{
+  "success": true,
+  "logId": "202503301817447197C9730F8667A3425E"
+}

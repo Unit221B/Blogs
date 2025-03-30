@@ -1,0 +1,13 @@
+URL: https://api.trae.ai/icube/api/v1/native/config/query?machineId=01cf49a95ad927ea934d0ddb6eac0511d4c5ace138dee1a6eda9e0184a51bd8d&deviceId=7484270930408703504&userId=7484083577249612805&packageType=stable_i18n&platform=Mac&arch=arm64&scope=marscode&appVersion=1.2.4&buildVersion=1.0.10282&traeVersionCode=20250325
+Method: GET
+Headers:
+  content-type: application/json
+  sec-fetch-site: none
+  sec-fetch-mode: no-cors
+  sec-fetch-dest: empty
+  user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.97.2 Chrome/128.0.6613.186 Electron/32.2.7 Safari/537.36
+  accept-encoding: gzip, deflate, br, zstd
+  accept-language: en-US
+  priority: u=4, i
+
+Body:

@@ -1,0 +1,256 @@
+Status Code: 200
+Headers:
+  content-type: application/json; charset=utf-8
+  access-control-allow-credentials: true
+  access-control-allow-headers: *
+  access-control-allow-methods: GET, POST, OPTIONS
+  access-control-allow-origin: *
+  access-control-max-age: 86400
+  x-bytefaas-execution-duration: 7.70
+  x-bytefaas-request-id: 20250330181734E850B8B17891D85C267F
+  x-gw-dst-psm: icube.native.ide
+  x-powered-by: Goofy Node
+  x-tt-logid: 20250330181734E850B8B17891D85C267F
+  x-tt-trace-host: 0117efc274a7e4ab9e608b136e066c684dde5d39d8f8c3997065443dae400f75d7cfde9cdab95a1a48bce01787b106637554a6f1f507bacf3036624c88bca97c1bc87010369f87fde9d6c2ad7259ecd79a87f764ef9594cdc4831c0689c302b6c97a07065d41afa61b1a73407f54bcec66
+  x-tt-trace-id: 00-250330181734E850B8B17891D85C267F-122E6F357C30F2DB-00
+  server: TLB
+  content-encoding: gzip
+  x-origin-response-time: 18,23.211.104.76
+  x-akamai-request-id: 139c82bd.32c138f2
+  expires: Sun, 30 Mar 2025 18:17:35 GMT
+  cache-control: max-age=0, no-cache, no-store
+  pragma: no-cache
+  date: Sun, 30 Mar 2025 18:17:35 GMT
+  x-cache: TCP_MISS from a23-216-152-217.deploy.akamaitechnologies.com (AkamaiGHost/22.0.1-eb7cb3f5cdf15410f5facbbff815d64a) (-)
+  vary: Accept-Encoding
+  x-cache-remote: TCP_MISS from a23-211-104-76.deploy.akamaitechnologies.com (AkamaiGHost/22.0.1-eb7cb3f5cdf15410f5facbbff815d64a) (-)
+  strict-transport-security: max-age=31536000 ; includeSubDomains
+  x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+  server-timing: cdn-cache; desc=MISS, edge; dur=4, origin; dur=18, inner; dur=10
+  x-parent-response-time: 21,23.216.152.217
+
+Body:
+{
+  "success": true,
+  "status": "success",
+  "message": "",
+  "data": {
+    "iCubeApp": {
+      "nativeAppConfig": {
+        "enableExtensionMemoryHandler": true,
+        "enableEntitlement": true,
+        "wsEnabled": true,
+        "ws": {
+          "fpID": "1458",
+          "aID": "677332",
+          "url": "wss://frontier.byteoversea.com",
+          "deviceId": "7484270930408703504",
+          "ak": "a25d91c58fb53b4cfc1f3bcdce002c4a"
+        },
+        "desktopOuterExtensionGallery": {
+          "serviceUrl": "https://open-vsx.org/vscode/gallery",
+          "controlUrl": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lkpkbvsj/ljhwZthlaukjlkulzlp/marketplace/controlUrl.json",
+          "searchUrl": "https://open-vsx.org/vscode/gallery/extensionquery"
+        },
+        "desktopInnerExtensionsGallery": {
+          "serviceUrl": "https://ide.byted.org/extensions/vscode/gallery",
+          "controlUrl": "https://lf3-static.bytednsdoc.com/obj/eden-cn/lkpkbvsj/ljhwZthlaukjlkulzlp/marketplace/controlUrl.json",
+          "searchUrl": "https://ide.byted.org/extensions/vscode/gallery/extensionquery"
+        },
+        "dsc": {
+          "agent": false
+        },
+        "aLog": {
+          "endpoint": "https://api-sg-central.trae.ai"
+        },
+        "tron": {
+          "pid": "7409949320595642651",
+          "external": true
+        },
+        "releaseNotesPrefix": {
+          "cn": "https://api.marscode.cn",
+          "sg": "https://api.trae.ai",
+          "va": "https://api.trae.ai"
+        },
+        "bypassHosts": [
+          "byted.org",
+          "bytedance.net",
+          "bytedance.com",
+          "tiktok-row.org",
+          "bytednsdoc.com",
+          "byteimg.com"
+        ]
+      },
+      "agenticFlowConfig": {
+        "matches": [
+          {
+            "model": "claude3.5",
+            "enableUserPromptCache": true,
+            "toolcallCacheLimit": 25
+          },
+          {
+            "model": "claude37",
+            "enableUserPromptCache": true,
+            "toolcallCacheLimit": 25
+          }
+        ]
+      },
+      "git": {
+        "singleDiffMaxLength": 40000,
+        "diffMaxLength": 80000,
+        "ignoreFileExtensions": [
+          "jpg",
+          "png",
+          "apng",
+          "gif",
+          "webp",
+          "flif",
+          "xcf",
+          "cr2",
+          "cr3",
+          "orf",
+          "arw",
+          "dng",
+          "nef",
+          "rw2",
+          "raf",
+          "tif",
+          "bmp",
+          "icns",
+          "jxr",
+          "psd",
+          "indd",
+          "zip",
+          "tar",
+          "rar",
+          "gz",
+          "bz2",
+          "7z",
+          "dmg",
+          "mp4",
+          "mid",
+          "mkv",
+          "webm",
+          "mov",
+          "avi",
+          "mpg",
+          "mp2",
+          "mp3",
+          "m4a",
+          "oga",
+          "ogg",
+          "ogv",
+          "opus",
+          "flac",
+          "wav",
+          "spx",
+          "amr",
+          "pdf",
+          "epub",
+          "exe",
+          "swf",
+          "rtf",
+          "wasm",
+          "woff",
+          "woff2",
+          "eot",
+          "ttf",
+          "otf",
+          "ico",
+          "flv",
+          "ps",
+          "xz",
+          "sqlite",
+          "nes",
+          "crx",
+          "xpi",
+          "cab",
+          "deb",
+          "ar",
+          "rpm",
+          "Z",
+          "lz",
+          "cfb",
+          "mxf",
+          "mts",
+          "blend",
+          "bpg",
+          "docx",
+          "pptx",
+          "xlsx",
+          "3gp",
+          "3g2",
+          "jp2",
+          "jpm",
+          "jpx",
+          "mj2",
+          "aif",
+          "qcp",
+          "odt",
+          "ods",
+          "odp",
+          "mobi",
+          "heic",
+          "cur",
+          "ktx",
+          "ape",
+          "wv",
+          "dcm",
+          "ics",
+          "glb",
+          "pcap",
+          "dsf",
+          "lnk",
+          "alias",
+          "voc",
+          "ac3",
+          "m4v",
+          "m4p",
+          "m4b",
+          "f4v",
+          "f4p",
+          "f4b",
+          "f4a",
+          "mie",
+          "asf",
+          "ogm",
+          "ogx",
+          "mpc",
+          "arrow",
+          "shp",
+          "aac",
+          "mp1",
+          "it",
+          "s3m",
+          "xm",
+          "ai",
+          "skp",
+          "avif",
+          "eps",
+          "lzh",
+          "pgp",
+          "asar",
+          "stl",
+          "chm",
+          "3mf",
+          "zst",
+          "jxl",
+          "vcf"
+        ],
+        "model": "deepseek-V3"
+      },
+      "privatePolicyUrl": "https://www.trae.ai/privacy-policy",
+      "termsOfServiceUrl": "https://www.trae.ai/terms-of-service",
+      "openSourceNoticeUrl": "https://docs.trae.ai/docs/open-source-software-notice",
+      "sshExtensions": [],
+      "featureGates": {
+        "enableRemoteDCDNDomain": true
+      },
+      "telemetryEndpoint": "https://api.marscode.com/icube/monitor/report?ide_type=r993ly67",
+      "oncallUrl": "https://docs.trae.ai/docs/support",
+      "userManualUrl": "https://docs.trae.ai/docs/what-is-trae",
+      "contactUrl": "https://docs.trae.ai/docs/support"
+    }
+  },
+  "logId": "20250330181734E850B8B17891D85C267F"
+}

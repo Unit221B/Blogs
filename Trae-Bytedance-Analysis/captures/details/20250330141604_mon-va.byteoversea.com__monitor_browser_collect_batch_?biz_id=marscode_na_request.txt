@@ -1,0 +1,177 @@
+URL: https://mon-va.byteoversea.com/monitor_browser/collect/batch/?biz_id=marscode_nativeide_us
+Method: POST
+Headers:
+  content-length: 3626
+  sec-ch-ua: "Not;A=Brand";v="24", "Chromium";v="128"
+  content-type: application/json
+  sec-ch-ua-mobile: ?0
+  user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.97.2 Chrome/128.0.6613.186 Electron/32.2.7 Safari/537.36
+  sec-ch-ua-platform: "macOS"
+  accept: */*
+  origin: vscode-file://vscode-app
+  sec-fetch-site: cross-site
+  sec-fetch-mode: cors
+  sec-fetch-dest: empty
+  accept-encoding: gzip, deflate, br, zstd
+  accept-language: en-US
+  priority: u=1, i
+
+Body:
+{
+  "ev_type": "batch",
+  "list": [
+    {
+      "ev_type": "http",
+      "payload": {
+        "api": "xhr",
+        "request": {
+          "url": "https://maliva-mcs.byteoversea.com/list",
+          "method": "post",
+          "headers": {
+            "content-type": "application/json; charset=utf-8"
+          },
+          "timestamp": 1743358562334
+        },
+        "response": {
+          "status": 200,
+          "is_custom_error": false,
+          "timestamp": 1743358562590,
+          "headers": {
+            "cache-control": "no-store, no-cache, must-revalidate",
+            "content-length": "21",
+            "content-type": "application/json; charset=utf-8",
+            "expires": "0",
+            "pragma": "no-cache"
+          },
+          "timing": {
+            "name": "https://maliva-mcs.byteoversea.com/list",
+            "entryType": "resource",
+            "startTime": 506481.6999999881,
+            "duration": 254.80000001192093,
+            "initiatorType": "xmlhttprequest",
+            "deliveryType": "",
+            "nextHopProtocol": "h2",
+            "renderBlockingStatus": "non-blocking",
+            "workerStart": 0,
+            "redirectStart": 0,
+            "redirectEnd": 0,
+            "fetchStart": 506481.6999999881,
+            "domainLookupStart": 506481.6999999881,
+            "domainLookupEnd": 506481.6999999881,
+            "connectStart": 506483.1999999881,
+            "secureConnectionStart": 506515,
+            "connectEnd": 506552.89999999106,
+            "requestStart": 506553.09999999404,
+            "responseStart": 506735.59999999404,
+            "firstInterimResponseStart": 0,
+            "responseEnd": 506736.5,
+            "transferSize": 321,
+            "encodedBodySize": 21,
+            "decodedBodySize": 21,
+            "responseStatus": 200,
+            "serverTiming": [
+              {
+                "name": "inner",
+                "duration": 5,
+                "description": ""
+              },
+              {
+                "name": "cdn-cache",
+                "duration": 0,
+                "description": "MISS"
+              },
+              {
+                "name": "edge",
+                "duration": 0,
+                "description": ""
+              },
+              {
+                "name": "origin",
+                "duration": 19,
+                "description": ""
+              }
+            ]
+          }
+        },
+        "duration": 256
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "user_id": "7484270930408703504",
+        "device_id": "87a9ac5a-f201-49c9-802d-5d7327671f29",
+        "session_id": "5aa96420-b5a7-41d8-abfc-de8d5b884c78",
+        "env": "prod",
+        "url": "vscode-file://vscode-app/Applications/Trae.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html",
+        "timestamp": 1743358562334,
+        "sdk_version": "1.14.1",
+        "sdk_name": "SDK_SLARDAR_WEB",
+        "pid": "/Applications/Trae.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html",
+        "view_id": "/Applications/Trae.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html_1743358057780",
+        "context": {
+          "workspace_id": "5ec1a4fc551cbe27be4b74d5b76a3c6f",
+          "ide_workspace_id": "",
+          "ide_project_template_slug": "",
+          "ide_project_repo_specified": "false",
+          "ide_environment_name": "",
+          "ide_config_runtime": "",
+          "ide_lang": "",
+          "ide_template_language": "",
+          "ide_user_id": "",
+          "ide_owner": "",
+          "ide_runtime_debug_port": "",
+          "ide_icube_version": "",
+          "ide_provider_region": "",
+          "ide_tenant_name": "",
+          "ide_server_type": "",
+          "ide_enable_double_container": "",
+          "ide_control_plane": "",
+          "x_env": "prod",
+          "ide_env": "",
+          "ide_environment_type": "extension",
+          "region": "US",
+          "isA0": "false",
+          "icube_uid": "7484083577249612805",
+          "user_id": "7484083577249612805",
+          "biz_user_id": "7484083577249612805",
+          "user_is_login": "true",
+          "device_id": "7484270930408703504",
+          "user_unique_id": "7484270930408703504",
+          "machine_id": "01cf49a95ad927ea934d0ddb6eac0511d4c5ace138dee1a6eda9e0184a51bd8d",
+          "arch": "arm64",
+          "system": "darwin",
+          "scope": "marscode",
+          "organization": "",
+          "build_version": "1.0.10282",
+          "vscode_version": "1.97.2",
+          "tenant": "marscode",
+          "aiRegion": "US",
+          "quality": "stable",
+          "build_time": "2025-03-28T09:20:39.922Z",
+          "icube_main_uid": "561645d1-eb81-4aba-9747-095ceea294a8",
+          "window_id": "2",
+          "app_version": "1.2.4",
+          "os_name": "mac",
+          "os_version": "macOS Sequoia",
+          "os_release": "15.3.2",
+          "os_build": "24D81",
+          "platform": "electron",
+          "device_model": "MacBook Air (13-inch, M2, 2022)",
+          "device_manufacturer": "Apple Inc.",
+          "cpu": "Apple",
+          "cpu_brand": "M2",
+          "cpu_vendor": "Apple",
+          "cpu_family": "-634136515",
+          "cpu_model": "",
+          "cpu_stepping": "2",
+          "cpu_speed": "2.4",
+          "memory": "25769803776",
+          "is_ssh": "false",
+          "language": "en-ca",
+          "app_language": "en"
+        },
+        "network_type": "4g",
+        "sample_rate": 0.787
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+URL: https://maliva-mcs.byteoversea.com/list
+Method: POST
+Headers:
+  content-length: 1891
+  sec-ch-ua: "Not;A=Brand";v="24", "Chromium";v="128"
+  content-type: application/json; charset=UTF-8
+  sec-ch-ua-mobile: ?0
+  user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.97.2 Chrome/128.0.6613.186 Electron/32.2.7 Safari/537.36
+  sec-ch-ua-platform: "macOS"
+  accept: */*
+  origin: vscode-file://vscode-app
+  sec-fetch-site: cross-site
+  sec-fetch-mode: cors
+  sec-fetch-dest: empty
+  accept-encoding: gzip, deflate, br, zstd
+  accept-language: en-US
+  priority: u=1, i
+
+Body:
+[
+  {
+    "events": [
+      {
+        "event": "autodebug_hover",
+        "params": "{\"exit_code\":0,\"command_line\":\"npm install express mongoose dotenv\",\"is_marscode_dev\":0,\"cwd\":\"/Volumes/SeXternal Backup/Dev/Trae\",\"isFocus\":\"focus\",\"isVisible\":\"visible\",\"event_index\":1743359046252}",
+        "local_time_ms": 1743358930797,
+        "is_bav": 0,
+        "session_id": "9bcc247f-5c49-47fa-89a5-b3776fdb4ad9"
+      }
+    ],
+    "user": {
+      "user_unique_id": "7484270930408703504",
+      "user_id": "7484083577249612805",
+      "user_is_login": true,
+      "device_id": "7484270930408703504"
+    },
+    "header": {
+      "app_id": 677332,
+      "app_version": "1.2.4",
+      "os_name": "mac",
+      "os_version": "macOS Sequoia",
+      "device_model": "MacBook Air (13-inch, M2, 2022)",
+      "language": "en-ca",
+      "region": "US",
+      "app_language": "en",
+      "platform": "electron",
+      "sdk_version": "5.1.25",
+      "sdk_lib": "js",
+      "timezone": -4,
+      "tz_offset": 14400,
+      "resolution": "1710x1112",
+      "browser": "Chrome",
+      "browser_version": "128.0.6613.186",
+      "referrer": "",
+      "referrer_host": "",
+      "width": 1710,
+      "height": 1112,
+      "screen_width": 1710,
+      "screen_height": 1112,
+      "tracer_data": "{\"$utm_from_url\":1}",
+      "custom": "{\"icube_uid\":\"7484083577249612805\",\"biz_user_id\":\"7484083577249612805\",\"machine_id\":\"01cf49a95ad927ea934d0ddb6eac0511d4c5ace138dee1a6eda9e0184a51bd8d\",\"arch\":\"arm64\",\"system\":\"darwin\",\"scope\":\"marscode\",\"organization\":\"\",\"build_version\":\"1.0.10282\",\"vscode_version\":\"1.97.2\",\"tenant\":\"marscode\",\"aiRegion\":\"US\",\"quality\":\"stable\",\"build_time\":\"2025-03-28T09:20:39.922Z\",\"icube_main_uid\":\"561645d1-eb81-4aba-9747-095ceea294a8\",\"window_id\":2,\"workspace_id\":\"5ec1a4fc551cbe27be4b74d5b76a3c6f\",\"os_release\":\"15.3.2\",\"os_build\":\"24D81\",\"device_manufacturer\":\"Apple Inc.\",\"cpu\":\"Apple\",\"cpu_brand\":\"M2\",\"cpu_vendor\":\"Apple\",\"cpu_family\":\"-634136515\",\"cpu_model\":\"\",\"cpu_stepping\":\"2\",\"cpu_speed\":2.4,\"memory\":25769803776,\"is_ssh\":false}"
+    },
+    "local_time": 1743358931,
+    "verbose": 1
+  }
+]

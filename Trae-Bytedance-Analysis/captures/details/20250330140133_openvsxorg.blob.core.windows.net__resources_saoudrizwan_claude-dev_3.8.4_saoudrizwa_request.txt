@@ -1,0 +1,15 @@
+URL: https://openvsxorg.blob.core.windows.net/resources/saoudrizwan/claude-dev/3.8.4/saoudrizwan.claude-dev-3.8.4.vsix
+Method: GET
+Headers:
+  Host: openvsxorg.blob.core.windows.net
+  Connection: keep-alive
+  X-Market-Client-Id: VSCode 1.97.2
+  User-Agent: VSCode 1.97.2 (Trae)
+  X-Market-User-Id: 5dc871e5-08b9-49db-ac39-d3cac2e1252c
+  VSCode-SessionId: 01cf49a95ad927ea934d0ddb6eac0511d4c5ace138dee1a6eda9e0184a51bd8d
+  Sec-Fetch-Site: none
+  Sec-Fetch-Mode: no-cors
+  Sec-Fetch-Dest: empty
+  Accept-Encoding: gzip, deflate, br, zstd
+
+Body:

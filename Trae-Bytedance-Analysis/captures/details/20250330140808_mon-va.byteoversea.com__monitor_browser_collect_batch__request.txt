@@ -1,0 +1,743 @@
+URL: https://mon-va.byteoversea.com/monitor_browser/collect/batch/
+Method: POST
+Headers:
+  Accept: application/json, text/plain, */*
+  Content-Type: application/x-www-form-urlencoded
+  User-Agent: axios/1.6.8
+  Content-Length: 15488
+  Accept-Encoding: gzip, compress, deflate, br
+  Host: mon-va.byteoversea.com
+  Connection: close
+
+Body:
+{
+  "ev_type": "batch",
+  "list": [
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2][Auth Client Init] ",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358084286,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2][ports-active] data persistence true",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085029,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "name": "stability_devtools_activate_start",
+        "type": "event",
+        "metrics": {
+          "value": 1
+        },
+        "categories": {}
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085029,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2]isIPv6Only: false ",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085030,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2]isBytedanceInternal: false ",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085030,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2]configurationPrefix: icube-devtool-ports ",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085030,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2]Extension language. en ",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085030,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2]Service is available on ports ",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085035,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2]Start AutomaticPortForwarder ",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085038,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "name": "stability_devtools_activate_duration",
+        "type": "event",
+        "metrics": {
+          "value": 9
+        },
+        "categories": {}
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085038,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2][icube env info] {\"envInfo\":{\"sessionID\":\"ff401226-1f8a-4772-bcc6-88d76781a5ca\"},\"sshExtensions\":[],\"config\":{\"helpExtensionUrl\":\"https://docs.trae.ai/docs/manage-extensions\"}}",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085039,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2][perfermance] read webview template:  0 ms",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085039,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2][perfermance] read webview template:  0 ms",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085040,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "name": "stability_devtools_init_webview_provider_duration",
+        "type": "event",
+        "metrics": {
+          "value": 14
+        },
+        "categories": {
+          "page": "index"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085053,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2][perfermance] init webview provider:  14 ms",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085053,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2]init i18n success ",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358085916,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node",
+          "icube_uid": "7484083577249612805",
+          "user_id": "7484083577249612805",
+          "biz_user_id": "7484083577249612805",
+          "user_is_login": "true",
+          "device_id": "7484270930408703504",
+          "user_unique_id": "7484270930408703504",
+          "machine_id": "01cf49a95ad927ea934d0ddb6eac0511d4c5ace138dee1a6eda9e0184a51bd8d",
+          "arch": "arm64",
+          "system": "darwin",
+          "scope": "marscode",
+          "organization": "",
+          "build_version": "1.0.10282",
+          "vscode_version": "1.97.2",
+          "tenant": "marscode",
+          "region": "US",
+          "aiRegion": "US",
+          "quality": "stable",
+          "build_time": "2025-03-28T09:20:39.922Z",
+          "icube_main_uid": "561645d1-eb81-4aba-9747-095ceea294a8",
+          "window_id": "1",
+          "workspace_id": "609c421898d31841f6ae3ad44dc7e0a0",
+          "app_version": "1.2.4",
+          "os_name": "mac",
+          "os_version": "macOS Sequoia",
+          "os_release": "15.3.2",
+          "os_build": "24D81",
+          "platform": "electron",
+          "device_model": "MacBook Air (13-inch, M2, 2022)",
+          "device_manufacturer": "Apple Inc.",
+          "cpu": "Apple",
+          "cpu_brand": "M2",
+          "cpu_vendor": "Apple",
+          "cpu_family": "-634136515",
+          "cpu_model": "",
+          "cpu_stepping": "2",
+          "cpu_speed": "2.4",
+          "memory": "25769803776",
+          "is_ssh": "false",
+          "language": "en-ca",
+          "app_language": "en",
+          "isVisible": "visible",
+          "isFocus": "not_focus"
+        },
+        "sample_rate": 1
+      }
+    },
+    {
+      "ev_type": "custom",
+      "payload": {
+        "content": "[node][2efd9a05-b807-43fc-bfed-aef56bf508e2]Start to scan port. ",
+        "type": "log",
+        "level": "info",
+        "metrics": {},
+        "categories": {
+          "sessionId": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node"
+        }
+      },
+      "common": {
+        "bid": "marscode_nativeide_us",
+        "pid": "icube-devtool-ports",
+        "view_id": "__1743358084278",
+        "user_id": "unknown",
+        "device_id": "74cda760-f00c-47cc-8be2-5da903b4c364",
+        "session_id": "75ec1bf7-00f1-4d13-8ae1-fe217dd7d58c",
+        "release": "0.0.123",
+        "env": "prod",
+        "url": "",
+        "protocol": "",
+        "domain": "",
+        "path": "",
+        "query": "",
+        "timestamp": 1743358086214,
+        "sdk_version": "2.0.1",
+        "sdk_name": "SDK_BASE",
+        "context": {
+          "extension_name": "icube-devtool-ports",
+          "extension_version": "0.0.123",
+          "session_id": "2efd9a05-b807-43fc-bfed-aef56bf508e2",
+          "runtime": "node",
+          "icube_uid": "7484083577249612805",
+          "user_id": "7484083577249612805",
+          "biz_user_id": "7484083577249612805",
+          "user_is_login": "true",
+          "device_id": "7484270930408703504",
+          "user_unique_id": "7484270930408703504",
+          "machine_id": "01cf49a95ad927ea934d0ddb6eac0511d4c5ace138dee1a6eda9e0184a51bd8d",
+          "arch": "arm64",
+          "system": "darwin",
+          "scope": "marscode",
+          "organization": "",
+          "build_version": "1.0.10282",
+          "vscode_version": "1.97.2",
+          "tenant": "marscode",
+          "region": "US",
+          "aiRegion": "US",
+          "quality": "stable",
+          "build_time": "2025-03-28T09:20:39.922Z",
+          "icube_main_uid": "561645d1-eb81-4aba-9747-095ceea294a8",
+          "window_id": "1",
+          "workspace_id": "609c421898d31841f6ae3ad44dc7e0a0",
+          "app_version": "1.2.4",
+          "os_name": "mac",
+          "os_version": "macOS Sequoia",
+          "os_release": "15.3.2",
+          "os_build": "24D81",
+          "platform": "electron",
+          "device_model": "MacBook Air (13-inch, M2, 2022)",
+          "device_manufacturer": "Apple Inc.",
+          "cpu": "Apple",
+          "cpu_brand": "M2",
+          "cpu_vendor": "Apple",
+          "cpu_family": "-634136515",
+          "cpu_model": "",
+          "cpu_stepping": "2",
+          "cpu_speed": "2.4",
+          "memory": "25769803776",
+          "is_ssh": "false",
+          "language": "en-ca",
+          "app_language": "en",
+          "isVisible": "visible",
+          "isFocus": "not_focus"
+        },
+        "sample_rate": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+URL: https://maliva-mcs.byteoversea.com/list
+Method: POST
+Headers:
+  content-length: 589
+  sec-ch-ua: "Not;A=Brand";v="24", "Chromium";v="128"
+  sec-ch-ua-platform: "macOS"
+  x-mcs-appkey: 566f58151b0ed37e
+  sec-ch-ua-mobile: ?0
+  user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Trae/1.97.2 Chrome/128.0.6613.186 Electron/32.2.7 Safari/537.36
+  content-type: application/json; charset=UTF-8
+  accept: */*
+  origin: vscode-file://vscode-app
+  sec-fetch-site: cross-site
+  sec-fetch-mode: cors
+  sec-fetch-dest: empty
+  accept-encoding: gzip, deflate, br, zstd
+  accept-language: en-US
+  priority: u=1, i
+
+Body:
+[
+  {
+    "events": [
+      {
+        "event": "onload",
+        "params": "{\"app_id\":677332,\"app_name\":\"\",\"sdk_version\":\"5.1.25\",\"sdk_type\":\"npm\",\"sdk_config\":{\"app_id\":677332,\"channel\":\"va\",\"log\":false,\"enable_ab_test\":false,\"disable_auto_pv\":true,\"enable_ttwebid\":true,\"enable_cookie\":true,\"cross_subdomain\":true,\"region\":\"US\",\"tenant\":\"public\",\"report_time\":500},\"sdk_desc\":\"TOC\",\"url\":\"vscode-file://vscode-app/Applications/Trae.app/Contents/Resources/app/out/vs/code/electron-sandbox/workbench/workbench.html\"}",
+        "local_time_ms": 1743358058006
+      }
+    ],
+    "user": {},
+    "header": {}
+  }
+]

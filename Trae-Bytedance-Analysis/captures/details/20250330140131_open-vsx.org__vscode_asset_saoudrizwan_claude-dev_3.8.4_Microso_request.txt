@@ -1,0 +1,14 @@
+URL: https://open-vsx.org/vscode/asset/saoudrizwan/claude-dev/3.8.4/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&targetPlatform=universal&update=true
+Method: GET
+Headers:
+  x-market-client-id: VSCode 1.97.2
+  user-agent: VSCode 1.97.2 (Trae)
+  x-market-user-id: 5dc871e5-08b9-49db-ac39-d3cac2e1252c
+  vscode-sessionid: 01cf49a95ad927ea934d0ddb6eac0511d4c5ace138dee1a6eda9e0184a51bd8d
+  sec-fetch-site: none
+  sec-fetch-mode: no-cors
+  sec-fetch-dest: empty
+  accept-encoding: gzip, deflate, br, zstd
+  priority: u=4, i
+
+Body:

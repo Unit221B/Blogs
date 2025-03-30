@@ -1,0 +1,16 @@
+Status Code: 302
+Headers:
+  server: nginx
+  date: Sun, 30 Mar 2025 17:59:14 GMT
+  content-length: 0
+  location: https://openvsxorg.blob.core.windows.net/resources/saoudrizwan/claude-dev/3.8.4/saoudrizwan.claude-dev-3.8.4.vsix
+  vary: Accept-Encoding, Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+  x-rate-limit-remaining: 14
+  x-content-type-options: nosniff
+  x-xss-protection: 0
+  strict-transport-security: max-age=31536000 ; includeSubDomains
+  x-frame-options: DENY
+  access-control-allow-origin: *
+  cache-control: max-age=600, public
+
+Body:

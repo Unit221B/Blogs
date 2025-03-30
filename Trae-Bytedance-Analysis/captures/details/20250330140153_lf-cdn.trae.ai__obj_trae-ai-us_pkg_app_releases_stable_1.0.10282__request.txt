@@ -1,0 +1,14 @@
+URL: https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/1.0.10282/darwin/Trae-darwin-arm64.zip?function%20search()%20{%20[native%20code]%20}
+Method: GET
+Headers:
+  accept: */*
+  user-agent: electron-builder
+  cache-control: no-cache
+  sec-fetch-site: none
+  sec-fetch-mode: no-cors
+  sec-fetch-dest: empty
+  accept-encoding: gzip, deflate, br, zstd
+  accept-language: en-US
+  priority: u=4, i
+
+Body:

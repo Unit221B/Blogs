@@ -1,0 +1,32 @@
+Status Code: 200
+Headers:
+  content-type: application/json; charset=utf-8
+  content-length: 21
+  x-tt-logid: 2025033018171728857313D8902639C19F
+  access-control-allow-origin: vscode-file://vscode-app
+  access-control-max-age: 1800
+  access-control-allow-credentials: true
+  access-control-allow-methods: GET, OPTIONS, HEAD, PUT, POST
+  cross-origin-resource-policy: cross-origin
+  cache-control: no-store, no-cache, must-revalidate
+  pragma: no-cache
+  expires: 0
+  x-tt-trace-host: 0117efc274a7e4ab9e608b136e066c684d41e65c89d738be8ce5a3cd77efb103e381c54cbbaad54746463c2b761256928fd122520c00980f6f4359c4df3a5eeefee78bbfa803c063de7690086cc7316f299abfb0d9580bf45757a0c8fbc6f7016eeb794951d188d3844c275b6e3dc6c931
+  x-tt-trace-id: 00-25033018171728857313D8902639C19F-6337770B749E6EDC-00
+  server: TLB
+  x-origin-response-time: 11,23.207.199.20
+  x-akamai-request-id: 1fe9ea9e.556f4437
+  date: Sun, 30 Mar 2025 18:17:18 GMT
+  x-cache: TCP_MISS from a23-221-199-239.deploy.akamaitechnologies.com (AkamaiGHost/22.0.1-eb7cb3f5cdf15410f5facbbff815d64a) (-)
+  x-cache-remote: TCP_MISS from a23-207-199-20.deploy.akamaitechnologies.com (AkamaiGHost/22.0.1-eb7cb3f5cdf15410f5facbbff815d64a) (-)
+  x-parent-response-time: 54,23.221.199.239
+  x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+  server-timing: cdn-cache; desc=MISS, edge; dur=43, origin; dur=11, inner; dur=5
+  timing-allow-origin: *
+
+Body:
+{
+  "e": 0,
+  "sc": 1,
+  "tc": 1
+}

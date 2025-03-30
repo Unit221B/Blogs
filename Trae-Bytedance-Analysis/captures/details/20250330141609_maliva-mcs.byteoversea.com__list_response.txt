@@ -1,0 +1,30 @@
+Status Code: 200
+Headers:
+  content-type: application/json; charset=utf-8
+  content-length: 21
+  x-tt-logid: 20250330181608A7E5E2A592B3D836397C
+  access-control-allow-origin: vscode-file://vscode-app
+  access-control-max-age: 1800
+  access-control-allow-credentials: true
+  access-control-allow-methods: GET, OPTIONS, HEAD, PUT, POST
+  cross-origin-resource-policy: cross-origin
+  cache-control: no-store, no-cache, must-revalidate
+  pragma: no-cache
+  expires: 0
+  server-timing: inner; dur=6, cdn-cache; desc=MISS, edge; dur=0, origin; dur=20
+  x-tt-trace-host: 0117efc274a7e4ab9e608b136e066c684df3de7f8a7c09fdd261702bb2ee7ccc1dfea97961134a2ecf8c83ceae96addcc19ab8f67ff99684468c54b16904298e7d802a1a97e3bdbc8cdadbf724fb310502be203357b909bbcddad42449068077d9
+  x-tt-trace-id: 00-250330181608A7E5E2A592B3D836397C-5B757EF2339F0D54-00
+  server: TLB
+  date: Sun, 30 Mar 2025 18:16:09 GMT
+  x-cache: TCP_MISS from a23-221-199-226.deploy.akamaitechnologies.com (AkamaiGHost/22.0.1-eb7cb3f5cdf15410f5facbbff815d64a) (-)
+  x-origin-response-time: 20,23.221.199.226
+  x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+  timing-allow-origin: *
+  x-akamai-request-id: 1145be1b
+
+Body:
+{
+  "e": 0,
+  "sc": 6,
+  "tc": 6
+}

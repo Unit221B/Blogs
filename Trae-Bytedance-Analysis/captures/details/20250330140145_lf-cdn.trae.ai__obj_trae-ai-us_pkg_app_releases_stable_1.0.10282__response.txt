@@ -1,0 +1,51 @@
+Status Code: 200
+Headers:
+  content-type: text/plain; charset=utf-8
+  accept-ranges: bytes
+  content-md5: TVVE2mBsrlHLg/3t8Yas9w==
+  etag: "4d5544da606cae51cb83fdedf186acf7"
+  last-modified: Fri, 28 Mar 2025 09:56:14 GMT
+  x-bdcdn-cache-status: TCP_HIT
+  x-tos-request-id: 62cdf5e688c5485c67e688c5-abc3a0e
+  x-tos-response-time: Fri, 28 Mar 2025 11:32:21 GMT
+  x-request-ip: fdbd:dc61:c:375::130
+  x-response-cinfo: fdbd:dc61:c:375::130
+  x-response-cache: edge_hit
+  x-tt-trace-host: 017377ad7c7643374a28a1ef5606b259ed7b2b207a8b50390f664fc8e393d39b309efcab54e4eb389d4560d2fe181691a2f6ffe83c40009cc1f2a2b71ec912b9c616232145b4a46078608f2fd4bcff78b3791b997b6101dd74f859eba53d89fd946f7c01890be861dcfb84d8bed2bc2662fd09361f72e96c4fc8bee6d25829a8ec
+  x-tt-trace-id: 00-250328113221242B48D07B2AAF73C252-5821C7D6D496361C-00
+  server: TLB
+  x-tt-logid: 20250328113221242B48D07B2AAF73C252
+  vary: Accept-Encoding
+  content-encoding: gzip
+  content-length: 293
+  cache-control: max-age=2395981
+  date: Sun, 30 Mar 2025 18:01:45 GMT
+  x-cache: TCP_HIT from a23-221-199-237.deploy.akamaitechnologies.com (AkamaiGHost/22.0.1-eb7cb3f5cdf15410f5facbbff815d64a) (-)
+  strict-transport-security: max-age=31536000 ; includeSubDomains
+  x-tt-trace-tag: id=16;cdn-cache=hit;type=static
+  server-timing: cdn-cache; desc=HIT, edge; dur=0, origin; dur=0, inner; dur=1
+  timing-allow-origin: *
+  access-control-max-age: 86400
+  access-control-allow-credentials: false
+  access-control-allow-headers: *
+  access-control-allow-methods: GET,POST
+  access-control-allow-origin: *
+  x-check-cacheable: YES
+  x-akamai-request-id: 315458c8
+
+Body:
+{
+  "appVersion": "1.2.4",
+  "buildVersion": "1.0.10282",
+  "version": "1.0.10282",
+  "files": [
+    {
+      "url": "https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/1.0.10282/darwin/Trae-darwin-arm64.zip",
+      "sha512": "KmtshbEddOk0Y8eqFhLISp91qqMy9jmrFKFD2cm8/FVD68aPn2MwFRc4uKPbhWXPO3RUh7A9hVFaxvqfhrgR8w==",
+      "size": 195557411
+    }
+  ],
+  "path": "https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/1.0.10282/darwin/Trae-darwin-arm64.zip",
+  "sha512": "KmtshbEddOk0Y8eqFhLISp91qqMy9jmrFKFD2cm8/FVD68aPn2MwFRc4uKPbhWXPO3RUh7A9hVFaxvqfhrgR8w==",
+  "releaseDate": "2025-03-28T09:48:18.357Z"
+}

@@ -1,0 +1,14 @@
+URL: https://lf-cdn.trae.ai/obj/trae-ai-us/pkg/app/releases/stable/1.0.10282/darwin/latest_arm64_va?t=1ink3ev9c
+Method: GET
+Headers:
+  x-user-staging-id: b2985c3d-b8cc-54d0-b736-c86a64fc392e
+  user-agent: electron-builder
+  cache-control: no-cache
+  sec-fetch-site: none
+  sec-fetch-mode: no-cors
+  sec-fetch-dest: empty
+  accept-encoding: gzip, deflate, br, zstd
+  accept-language: en-US
+  priority: u=4, i
+
+Body:

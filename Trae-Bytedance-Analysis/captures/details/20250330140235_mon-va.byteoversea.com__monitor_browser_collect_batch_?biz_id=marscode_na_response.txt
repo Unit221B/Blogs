@@ -1,0 +1,18 @@
+Status Code: 204
+Headers:
+  date: Sun, 30 Mar 2025 18:02:35 GMT
+  content-type: application/json; charset=utf-8
+  x-tt-logid: 2025033018023475EFEBAA58B7B84E45F9
+  access-control-allow-origin: *
+  access-control-allow-headers: Content-Type,Content-Length,Accept-Encoding,X-CSRF-Token,accept,origin,Cache-Control,X-Requested-With,X-USE-PPE,X-TT-ENV
+  access-control-allow-methods: POST, OPTIONS, GET
+  access-control-max-age: 600
+  cross-origin-resource-policy: cross-origin
+  x-tt-trace-host: 01245f9d29abfd11cce7a0d151b6b75b9819f16be2531621baf670b29fe25906f3ae11a4beb2c4349f75a684fd06c01933f8eac1d7f199a9900d3351710f0b8b7471e58d2b3a717db9db3907941bdf83cd
+  x-tt-trace-tag: id=31;cdn-cache=miss
+  x-tt-trace-id: 00-25033018023475EFEBAA58B7B84E45F9-1D819C509A423AED-00
+  server: envoy
+  server-timing: cdn-cache;desc=MISS, inner;dur=3, origin;dur=6, edge;dur=2
+  x-envoy-upstream-service-time: 6
+
+Body:
