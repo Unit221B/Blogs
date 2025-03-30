@@ -1,52 +1,48 @@
-# Trae & Bytedance AI Tool Analysis
+# Trae/Bytedance AI Tool Analysis
 
-This repository contains research and analysis of Bytedance's Trae AI tool, focusing on how it integrates with Claude 3.7 Sonnet and its authentication mechanisms.
+This repository contains analysis and research on Bytedance's AI tools and infrastructure, specifically focusing on the Trae AI platform.
+
+## Project Structure
+
+- `captures/` - Traffic captures and API request/response data
+  - `endpoints.txt` - List of discovered API endpoints
+  - `tool_use_patterns.txt` - Analysis of tool usage patterns
+  - `details/` - Detailed request/response captures
+
+- `docs/` - Documentation and analysis
+  - `API_ENDPOINTS.md` - API endpoint documentation
+  - `AUTH_ANALYSIS.md` - Authentication flow analysis
+  - `PROJECT_Master.md` - Master project documentation
+  - `SETUP.md` - Setup instructions
+  - `TOOL_USE.md` - Tool usage documentation
+  - `trae_api_analysis.md` - Trae API analysis
+  - `trae_auth_flow.md` - Trae authentication flow documentation
+
+- `scripts/` - Analysis and test scripts
+  - `trae_auth_capture.py` - Authentication flow capture script
+  - `trae_capture.py` - General traffic capture script
+
+- `src/` - Source code
+  - `sonnet_capture.py` - Claude Sonnet integration capture
+  - `token_extractor.py` - Token extraction utilities
+  - `trae_claude_cli.py` - Trae Claude CLI implementation
+  - `trae_cli.py` - Main Trae CLI tool
+  - `trae_embedded_cli.py` - Embedded CLI implementation
+
+- `tests/` - Test suite
+  - `test_trae_cli.py` - CLI test suite
 
 ## Key Findings
 
-- **AWS SDK Integration**: Trae uses AWS SDK to access Claude 3.7 Sonnet, confirmed through telemetry data:
-  ```json
-  "chat_model":"aws_sdk_claude37_sonnet"
-  ```
-- **Multi-Layer Authentication**: Combines JWT-based authentication for Trae services with AWS authentication for Claude access
-- **VSCode Architecture**: Built on Electron/VSCode with extension `saoudrizwan.claude-dev-3.8.4.vsix`
-- **Multi-Region Deployment**: Services distributed across US and Singapore regions
+- Detailed analysis of Bytedance's AI infrastructure and tooling
+- Examination of authentication flows and security mechanisms
+- Documentation of API endpoints and their functionality
+- Research into tool usage patterns and system architecture
 
-## Contents
+## Usage
 
-- `docs/` - Detailed documentation and analysis
-  - `PROJECT_Master.md` - Comprehensive overview of all findings
-  - `API_ENDPOINTS.md` - Complete API endpoint documentation
-  - `AUTH_ANALYSIS.md` - Authentication flow analysis
-  - `TOOL_USE.md` - Tool use implementation details
-- `captures/` - Network traffic captures and analysis
-- `src/` - Source code and implementation attempts
-- `scripts/` - Analysis and testing scripts
+Please refer to the documentation in the `docs/` directory for setup instructions, usage guides, and detailed analysis.
 
-## Research Approach
+## Note
 
-Our reverse engineering approach includes:
-1. **Traffic Interception**: Using mitmdump to capture HTTP traffic
-2. **Authentication Analysis**: Documenting JWT structure and AWS credential usage
-3. **Binary Analysis**: Extracting and examining app components
-4. **Implementation**: Creating proof-of-concept clients to interact with the service
-
-## Current Challenges
-
-1. **WebSocket Capture**: Current proxy setup doesn't capture WebSocket traffic
-2. **AWS Authentication**: Understanding how AWS credentials are obtained and used
-3. **Tool Use Flow**: Difficult to capture complete tool use interactions
-
-## Implementation Goals
-
-1. Create a compatible client that can authenticate with both Trae services and AWS Bedrock
-2. Implement conversation functionality matching the official client
-3. Support tool use capabilities through a compatible interface
-
-## Documentation
-
-See the `docs/` directory for comprehensive documentation on all aspects of the analysis.
-
-## Project Status
-
-This is an ongoing research project. See `tasks.md` for current task status and next steps.
+This repository is for research and documentation purposes only. All analysis is based on publicly available information and legitimate reverse engineering techniques.
